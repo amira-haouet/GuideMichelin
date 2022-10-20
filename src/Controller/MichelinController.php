@@ -21,4 +21,11 @@ class MichelinController extends AbstractController
             'accueil/afficher.html.twig',
         );
     }
+
+    public function menu()
+    {
+        return $this->render(
+            'accueil/menu.html.twig',
+        );
+    }
 }

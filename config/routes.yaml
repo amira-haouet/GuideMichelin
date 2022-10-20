@@ -5,5 +5,11 @@
 ####### relation entre controlleur et chemin d'acces
 Michelin_accueil:
   ## path: /afficher
-  path: /guideMichelin
+  path: /guideMichelin/afficher
   controller: App\Controller\MichelinController::accueil
+
+
+Michelin_menu:
+  ## path: /afficher
+  path: /guideMichelin/menu
+  controller: App\Controller\MichelinController::menu
