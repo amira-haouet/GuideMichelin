@@ -1,6 +1,10 @@
 #index:
 #    path: /
 #    controller: App\Controller\DefaultController::index
+
+
+####### relation entre controlleur et chemin d'acces 
 Michelin_accueil:
+## path: /afficher
  path: /
  controller: App\Controller\MichelinController::accueil
